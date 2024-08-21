@@ -138,7 +138,7 @@ pub mod openai_billing {
     }
 
     fn _get_openai_base() -> &'static str {
-        "https://api.openai.com/v1"
+        "https://api.openai.com/v2"
     }
 
     // This method has failed since 2023/07/24 OPENAI closed the API of accessing account balling via API KEY.
